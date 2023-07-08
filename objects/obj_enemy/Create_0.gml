@@ -70,10 +70,6 @@ function damage(dmg)
 		start_time_dmg = get_timer();
 		audio_play_sound(sfx_slap, 1, false);
 		hp -= dmg;
-		if(hp <= 0)
-		{
-			instance_destroy(buddy);
-			instance_destroy();
-		}
+		if(hp <= 0) instance_destroy();
 	}
 }
