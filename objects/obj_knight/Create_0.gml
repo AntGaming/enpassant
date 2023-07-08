@@ -51,6 +51,7 @@ function pound(pound_dur, d_t)
 		y_vel = lengthdir_y(scalar*v,target_dir)
 		image_xscale=(3-power(2*t-1,2))/2
 		image_yscale=image_xscale
+		//test
 	}
 	
 	x += x_vel*d_t/pound_dur;
