@@ -3,21 +3,27 @@ visible = false;
 
 time_random_adj = random(999999);
 
-if(irandom(1) == 0) sprite_index = spr_pawn_w;
-else sprite_index = spr_pawn_b;
+if(irandom(1) == 0) sprite_index = spr_bishop_w;
+else sprite_index = spr_bishop_b;
 
 x_vel = 0;
 y_vel = 0;
 
 start_time_dmg = 0;
 
-hp = 2;
+hp = 3;
+
+dash_state = -1;
+vibratecount = 0;
+
+#macro DASH_CD 2
+#macro DASH_WINDUP 1
 
 alarm[0] = wait * room_speed;
 
 function move()
 {
-	apply_force(0.3, point_direction(x, y, obj_player.x, obj_player.y))
+	apply_force(0.2, point_direction(x, y, obj_player.x, obj_player.y))
 	
 	x += x_vel;
 	y += y_vel;
@@ -69,5 +75,13 @@ function damage(dmg)
 		audio_play_sound(sfx_slap, 1, false);
 		hp -= dmg;
 		if(hp <= 0) instance_destroy();
+		
+		if(dash_state != -1)
+		{
+			dash_state = -1;
+			instance_destroy(buddy);
+		}
+		alarm[1] = room_speed * DASH_CD;
+		
 	}
 }
