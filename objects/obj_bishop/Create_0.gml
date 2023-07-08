@@ -1,3 +1,5 @@
+event_inherited();
+
 active = false;
 visible = false;
 

@@ -1,3 +1,5 @@
+event_inherited();
+
 active = false;
 visible = false;
 
@@ -51,7 +53,7 @@ function exclude()
 	if(instance_number(par_enemy) > 1)
 	{
 		var excluder = instance_nth_nearest(x, y, par_enemy, 2);
-		if(distance_to_point(excluder.x, excluder.y) < 16)
+		if(distance_to_point(excluder.x, excluder.y) < 16 && excluder.active)
 		{;
 			var mag = 1/distance_to_point(excluder.x, excluder.y);
 			mag = clamp(mag, 0, 1);
