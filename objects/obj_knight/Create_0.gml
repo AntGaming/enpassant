@@ -12,46 +12,45 @@ start_time_pound =-999* power(10,6) ;
 hp = 3;
 charge_time = 0.5* power(10, 6);
 max_pound_dist = 300;
-
-function move()
-{
-	apply_force(0.3, point_direction(x, y, obj_player.x, obj_player.y))
-	
-	x += x_vel;
-	y += y_vel;
-	
-	image_angle = sin(get_timer()/50000 + time_random_adj) * sqrt(power(x_vel, 2) + power(y_vel, 2)) * 2;	
-
-	x_vel = lerp(x_vel, 0, 0.1);
-	y_vel = lerp(y_vel, 0, 0.1);
-
-	bounds();
-	exclude();
-}
+is_jumping=false
 
 function pound(pound_dur, d_t)
 {
 	pound_dur *= power(10,6)
-	magic_num = 0.33875
+	
 	if ((get_timer()-start_time_pound)-charge_time> pound_dur)
 	{
+		//have we just finished a jump
+		if(is_jumping == true)
+		{
+			//stomp damage/ shock wave code goes here
+		}
+		is_jumping=false
 		start_time_pound = get_timer();
 		
+		// dont let the knight jump too far
 		calculated_dist = clamp(point_distance(x,y,obj_player.x, obj_player.y), 0, max_pound_dist)
 		target_dir = point_direction(x,y,obj_player.x, obj_player.y)
-		//target_x =calculated_dist*cos(angle);
-		//target_y = calculated_dist*sin(angle);
 	}
+	
+	//are we still mid jump
 	if((get_timer()-start_time_pound)<pound_dur)
 	{	
+		is_jumping=true
+		
+		// t is a standardised time that scales from 0 to 1 through our pound duration
 		t = (get_timer()-start_time_pound)/ (pound_dur);
+		//funny function
 		v = 8*t*exp(1-8*t)
-		scalar = calculated_dist/magic_num
+		
+		//magic number makes our scalar work, pls trust, makes the knight travel the correct distance
+		scalar = calculated_dist/0.33875
 		x_vel = lengthdir_x(scalar*v,target_dir)
 		y_vel = lengthdir_y(scalar*v,target_dir)
+		
+		//funny function 2
 		image_xscale=(3-power(2*t-1,2))/2
 		image_yscale=image_xscale
-		//test
 	}
 	
 	x += x_vel*d_t/pound_dur;
