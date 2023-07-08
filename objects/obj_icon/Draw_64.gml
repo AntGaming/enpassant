@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_pawn_f, global.character, 150, 620, 2, 2, 0, c_white, 1);
