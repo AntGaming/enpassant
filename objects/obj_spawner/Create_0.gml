@@ -14,6 +14,9 @@ function spawn(type, num, delay)
 		case 1:
 			spawn_target = obj_bishop;
 			break;
+		case 2:
+			spawn_target = obj_rook;
+			break;
 	}
 	
 	for(var i = 0; i <= num; i++)
