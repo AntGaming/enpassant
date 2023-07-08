@@ -9,3 +9,4 @@ switch(global.character)
 hp = hp_max;
 
 instance_create_layer(x, y, "Instances", obj_sword, {master: id});
+instance_create_layer(x, y, "Instances", obj_enpassant, {master: id});

@@ -4,7 +4,7 @@ if(active)
 	
 	depth = -bbox_bottom;
 
-	if(distance_to_point(obj_player.x, obj_player.y) < 2)
+	if(distance_to_point(obj_player.x, obj_player.y) < 2 && !obj_player.passanting)
 	{
 		with(obj_player)
 		{
@@ -17,5 +17,11 @@ if(active)
 	{
 		apply_force(2, point_direction(obj_player.x, obj_player.y, x, y));
 		damage(1);
+	}
+	
+	if(place_meeting(x, y, obj_enpassant) && obj_enpassant.master.passanting)
+	{
+		apply_force(2, point_direction(obj_player.x, obj_player.y, x, y));
+		damage(2);
 	}
 }

@@ -4,6 +4,9 @@ y_vel = 0;
 
 start_time_dmg = 0;
 
+can_passant = true;
+passanting = false;
+
 function p_movement()
 {
 	var move_h = keyboard_check(ord("D")) -keyboard_check(ord("A"));
