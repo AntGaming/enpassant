@@ -51,6 +51,8 @@
     {"id":{"name":"spr_pawn_f","path":"sprites/spr_pawn_f/spr_pawn_f.yy",},},
     {"id":{"name":"spr_enpassant","path":"sprites/spr_enpassant/spr_enpassant.yy",},},
     {"id":{"name":"obj_cd","path":"objects/obj_cd/obj_cd.yy",},},
+    {"id":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},},
+    {"id":{"name":"sfx_charge_7","path":"sounds/sfx_charge_7/sfx_charge_7.yy",},},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
     {"id":{"name":"spr_pawn_p","path":"sprites/spr_pawn_p/spr_pawn_p.yy",},},
     {"id":{"name":"obj_pointer","path":"objects/obj_pointer/obj_pointer.yy",},},

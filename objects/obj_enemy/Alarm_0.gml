@@ -1,3 +1,3 @@
 /// @description activate
-visible = true;
-active = true;
+visible = false;
+active = false;
