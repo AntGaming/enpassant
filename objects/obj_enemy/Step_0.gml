@@ -4,7 +4,7 @@ if(active)
 	
 	depth = -bbox_bottom;
 
-	if(distance_to_point(obj_player.x, obj_player.y) < 8)
+	if(distance_to_point(obj_player.x, obj_player.y) < 2)
 	{
 		with(obj_player)
 		{
