@@ -62,7 +62,7 @@ function pound(pound_dur, d_t)
 	y += y_vel*d_t/pound_dur;
 	x_vel = lerp(x_vel, 0, 0.1);
 	y_vel = lerp(y_vel, 0, 0.1);
-	
+	exclude()
 	
 	bounds();
 }
@@ -85,10 +85,10 @@ function bounds()
 
 function exclude()
 {
-	if(instance_number(obj_enemy) > 1)
+	if(instance_number(par_enemy) > 1)
 	{
-		var excluder = instance_nth_nearest(x, y, obj_enemy, 2);
-		if(distance_to_point(excluder.x, excluder.y) < 16)
+		var excluder = instance_nth_nearest(x, y, par_enemy, 2);
+		if(distance_to_point(excluder.x, excluder.y) < 16 && excluder.active)
 		{;
 			var mag = 1/distance_to_point(excluder.x, excluder.y);
 			mag = clamp(mag, 0, 1);

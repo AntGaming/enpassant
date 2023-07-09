@@ -160,8 +160,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
-    {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
+    {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"roomId":{"name":"rm_death_screen","path":"rooms/rm_death_screen/rm_death_screen.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},

@@ -9,6 +9,6 @@ if(keyboard_check_pressed(vk_space))
 	else
 	{
 		global.level = obj_level_tracker.level_ind;
-		room_goto_next();
+		room_goto(rm_battle);
 	}
 }
