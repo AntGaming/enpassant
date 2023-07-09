@@ -60,6 +60,7 @@
     {"id":{"name":"spr_king","path":"sprites/spr_king/spr_king.yy",},},
     {"id":{"name":"spr_queen","path":"sprites/spr_queen/spr_queen.yy",},},
     {"id":{"name":"sfx_charge","path":"sounds/sfx_charge/sfx_charge.yy",},},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
     {"id":{"name":"sfx_knight","path":"sounds/sfx_knight/sfx_knight.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},

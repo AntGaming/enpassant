@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_death_screen",
-  "bbox_bottom": 1049,
+  "bbox_bottom": 2479,
   "bbox_left": 0,
-  "bbox_right": 1399,
+  "bbox_right": 3507,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ea02f180-00d1-4c8d-9ab4-a4c2f7587953",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62a82641-75c5-49af-b23e-457c8e5c481b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1050,
+  "height": 2480,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e1beca5-7e5d-404d-8771-deacef2db5df","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"67b4ed33-57f7-45d3-969b-6e46999835f3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ea02f180-00d1-4c8d-9ab4-a4c2f7587953","path":"sprites/spr_death_screen/spr_death_screen.yy",},},},"Disabled":false,"id":"49b0cf68-7cdb-4831-83a6-aba463f5813b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62a82641-75c5-49af-b23e-457c8e5c481b","path":"sprites/spr_death_screen/spr_death_screen.yy",},},},"Disabled":false,"id":"8a7b65f7-5ee3-4c08-ba81-9497258c0a2e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1400,
+  "width": 3508,
 }
