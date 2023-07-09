@@ -1,4 +1,11 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"buttons","order":1,"path":"folders/Objects/gui/buttons.yy",},
+    {"name":"buttons","order":1,"path":"folders/Sprites/gui/buttons.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_level_button_right","order":1,"path":"sprites/spr_level_button_right/spr_level_button_right.yy",},
+    {"name":"rm_level_select","order":2,"path":"rooms/rm_level_select/rm_level_select.yy",},
+    {"name":"rm_title","order":1,"path":"rooms/rm_title/rm_title.yy",},
+  ],
 }

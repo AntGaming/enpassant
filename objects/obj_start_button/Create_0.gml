@@ -1,2 +1,3 @@
 //image_xscale = 0.7
-// = image_xscale
+//image_yscale = image_xscale
+visible =true
