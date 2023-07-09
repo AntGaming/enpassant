@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "gui",
-    "path": "folders/Objects/gui.yy",
+    "name": "buttons",
+    "path": "folders/Objects/gui/buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_start_button",
-    "path": "sprites/spr_start_button/spr_start_button.yy",
+    "name": "spr_start_text",
+    "path": "sprites/spr_start_text/spr_start_text.yy",
   },
   "spriteMaskId": null,
   "visible": true,
