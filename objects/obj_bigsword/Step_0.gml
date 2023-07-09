@@ -33,6 +33,10 @@ switch(state)
 		state = 0;
 		break;
 	
+	case 3:
+		pawnstorm(3 + (4 * master.rage), 1 - (0.8 * master.rage));
+		state = 0;
+	
 	case 10:
 		spin = 10;
 		image_angle += spin;
@@ -71,4 +75,6 @@ switch(state)
 		break;
 }
 
-depth = master.depth-1;
+depth = master.depth-10;
+
+if(!master.active) instance_destroy();

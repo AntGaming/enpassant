@@ -1,2 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
+draw_self();
+
+if(active)
+{
+	draw_set_color(c_black);
+	draw_rectangle(x-210, y-210, x+210, y-140, false);
+	draw_set_color(c_red);
+	draw_rectangle(x-200, y-200, x+200, y-150, false);
+	draw_set_color(c_lime);
+	draw_rectangle(x-200, y-200, x-200 + (hp/18 * 400), y-150, false);
+
+	draw_set_color(c_white);
+}

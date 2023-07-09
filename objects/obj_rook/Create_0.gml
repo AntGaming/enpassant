@@ -21,7 +21,7 @@ alarm[0] = wait * room_speed;
 
 function move()
 {
-	if(distance_to_object(obj_player) < 400) apply_force(0.3, point_direction(obj_player.x, obj_player.y, x, y));
+	if(distance_to_object(obj_player) < 400) apply_force(0.2, point_direction(obj_player.x, obj_player.y, x, y));
 	
 	x += x_vel;
 	y += y_vel;

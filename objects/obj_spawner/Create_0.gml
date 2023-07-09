@@ -1,4 +1,4 @@
-global.level = 0;
+global.level = 4;
 global.character = 0;
 
 can_spawn = true;

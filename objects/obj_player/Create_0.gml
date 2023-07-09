@@ -1,4 +1,3 @@
-move_speed = 0.4;
 x_vel = 0;
 y_vel = 0;
 
@@ -9,8 +8,8 @@ passanting = false;
 
 function p_movement()
 {
-	var move_h = keyboard_check(ord("D")) -keyboard_check(ord("A"));
-	var move_v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+	var move_h = (keyboard_check(ord("D")) || keyboard_check(vk_right)) - (keyboard_check(ord("A")) || keyboard_check(vk_left));
+	var move_v = (keyboard_check(ord("S")) || keyboard_check(vk_down)) - (keyboard_check(ord("W")) || keyboard_check(vk_up));
 		
 	if(move_h != 0 || move_v != 0)
 	{

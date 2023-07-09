@@ -1,12 +1,18 @@
-switch(global.character)
+if(global.level == 5)
 {
-	case 0:
-		sprite_index = spr_pawn_p;
-		hp_max = 5;
-		break;
+	sprite_index = spr_queen;
+	hp_max = 10;
+	move_speed = 0.6;
+}
+else
+{
+	sprite_index = spr_pawn_p;
+	hp_max = 5;
+	move_speed = 0.4;
+	instance_create_layer(x, y, "Instances", obj_sword, {master: id});
+	instance_create_layer(x, y, "Instances", obj_enpassant, {master: id});
 }
 
 hp = hp_max;
 
-instance_create_layer(x, y, "Instances", obj_sword, {master: id});
-instance_create_layer(x, y, "Instances", obj_enpassant, {master: id});
+obj_healthtracker.loadhp();

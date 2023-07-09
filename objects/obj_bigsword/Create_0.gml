@@ -2,7 +2,7 @@ state = 0;
 spin = 0;
 
 alarm[0] = room_speed * 2;
-alarm[3] = room_speed * 5;
+//alarm[3] = room_speed * 5;
 
 fly_speed = 25;
 
@@ -46,6 +46,18 @@ function spawn(type, num, delay)
 				y = irandom(room_height);
 			}
 			until(distance_to_object(obj_player) >= obj_cam.view_w_half);
+		}
+	}
+}
+
+function pawnstorm(num, delay)
+{	
+	for(var i = 0; i < num; i++)
+	{
+		with instance_create_layer(master.x, master.y, "Instances", obj_enemy, {wait: 0.1})
+		{
+			depth = other.master.depth+1;
+			sprite_index = spr_pawn_w;
 		}
 	}
 }

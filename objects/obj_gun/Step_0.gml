@@ -15,7 +15,7 @@ else
 		{
 			shoot();
 		}
-		if(boom == 50)
+		if(boom == 30)
 		{
 			shoot_state = -1;
 			alarm[0] = room_speed * 4;

@@ -2,7 +2,18 @@ p_movement();
 
 depth = -bbox_bottom;
 
-if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state == 0)
+if(global.level == 5)
+{
+	if(mouse_check_button_pressed(mb_right) && can_passant)
+	{
+		audio_play_sound(sfx_tp, 1, 0);
+		x = mouse_x;
+		y = mouse_y;
+		alarm[0] = room_speed * 0.5;
+		can_passant = false;
+	}
+}
+else if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state == 0)
 {
 	passanting = true;
 	apply_force(25, point_direction(x, y, mouse_x, mouse_y));
@@ -14,5 +25,14 @@ if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state == 0)
 if(place_meeting(x, y, obj_bigsword) && !passanting)
 {
 	apply_force(30, point_direction(obj_bigsword.x, obj_bigsword.y, x, y));
-	damage(2);
+	damage(1);
+}
+
+if(global.level == 4)
+{
+	if(!obj_king.active && y <= 64)
+	{
+		global.level = 5;
+		room_restart();
+	}
 }

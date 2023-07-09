@@ -8,10 +8,12 @@ time_random_adj = random(999999);
 x_vel = 0;
 y_vel = 0;
 
+vibratecount = 0;
+
 start_time_dmg = 0;
 
-hp = 20;
-rage = 1-(hp/20);
+hp = 18;
+rage = 1-(hp/18);
 
 instance_create_layer(x, y, "Instances", obj_bigsword, {master: id});
 
@@ -68,6 +70,11 @@ function damage(dmg)
 		start_time_dmg = get_timer();
 		audio_play_sound(sfx_slap, 1, false);
 		hp -= dmg;
-		if(hp <= 0) instance_destroy();
+		if(hp <= 0)
+		{
+			active = false;
+			anchor_x = x;
+			image_index++;
+		}
 	}
 }
