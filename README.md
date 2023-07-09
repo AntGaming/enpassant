@@ -12,6 +12,9 @@
 - [ ] sound effects for more things
 - [ ] soundtrack for victory & death screen
 - [ ] overall more forgiving gameplay, possibly difficulty adjust
+- [ ] save progress
+- [ ] make the cursor more visible
+- [ ] allow en passant directly after auto
 
 # OTT
 - [ ] other playable characters w/ different storylines
