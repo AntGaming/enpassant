@@ -53,3 +53,11 @@ else
 {
 	if(keyboard_check_pressed(vk_space)) global.defeated = global.todefeat;	
 }
+
+if(global.level == 5)
+{
+	if(!obj_king.active)
+	{
+		room_goto(rm_end_screen)
+	}
+}
