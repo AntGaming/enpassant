@@ -1,6 +1,8 @@
 x_vel = 0;
 y_vel = 0;
 
+can_fist = true;
+
 start_time_dmg = 0;
 
 can_passant = true;

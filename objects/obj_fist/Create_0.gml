@@ -1,2 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+move_speed = 12;
+alarm[0] = room_speed * 5;
+hit = false;
