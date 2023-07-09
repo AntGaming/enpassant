@@ -10,6 +10,7 @@
     {"name":"obj_cam","order":1,"path":"objects/obj_cam/obj_cam.yy",},
     {"name":"rm_end_screen","order":4,"path":"rooms/rm_end_screen/rm_end_screen.yy",},
     {"name":"rm_cutscene","order":3,"path":"rooms/rm_cutscene/rm_cutscene.yy",},
+    {"name":"sfx_pawne","order":1,"path":"sounds/sfx_pawne/sfx_pawne.yy",},
     {"name":"spr_death_screen","order":1,"path":"sprites/spr_death_screen/spr_death_screen.yy",},
     {"name":"obj_retry_button","order":4,"path":"objects/obj_retry_button/obj_retry_button.yy",},
     {"name":"obj_level_button_left","order":1,"path":"objects/obj_level_button_left/obj_level_button_left.yy",},

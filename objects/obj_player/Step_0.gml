@@ -12,6 +12,20 @@ if(global.level == 5)
 		alarm[0] = room_speed * 0.5;
 		can_passant = false;
 	}
+	
+	if(mouse_check_button(mb_left) && can_fist)
+	{
+		can_fist = false;
+		var dire = point_direction(x, y, mouse_x, mouse_y);
+		audio_play_sound(sfx_pawne, 1, 0);
+		
+		with(instance_create_layer(x - lengthdir_x(1000, dire), y - lengthdir_y(1000, dire), "Instances", obj_fist))
+		{
+			dir = point_direction(x, y, mouse_x, mouse_y);
+		}
+		
+		alarm[2] = room_speed * 0.1;
+	}
 }
 else if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state == 0)
 {

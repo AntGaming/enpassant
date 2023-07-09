@@ -65,6 +65,7 @@
     {"id":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
     {"id":{"name":"obj_enpassant","path":"objects/obj_enpassant/obj_enpassant.yy",},},
     {"id":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
+    {"id":{"name":"sfx_pawne","path":"sounds/sfx_pawne/sfx_pawne.yy",},},
     {"id":{"name":"mus_promotion","path":"sounds/mus_promotion/mus_promotion.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"spr_t_promote","path":"sprites/spr_t_promote/spr_t_promote.yy",},},
