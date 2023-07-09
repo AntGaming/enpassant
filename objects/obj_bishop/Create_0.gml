@@ -5,8 +5,7 @@ visible = false;
 
 time_random_adj = random(999999);
 
-if(irandom(1) == 0) sprite_index = spr_bishop_w;
-else sprite_index = spr_bishop_b;
+sprite_index = spr_bishop_w;
 
 x_vel = 0;
 y_vel = 0;

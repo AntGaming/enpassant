@@ -1,7 +1,5 @@
-global.level = 4;
-global.character = 0;
-
 can_spawn = true;
+done = false;
 
 function spawn(type, num, delay)
 {

@@ -2,6 +2,8 @@ audio_stop_all();
 
 if(room == rm_battle)
 {
+	global.defeated = 0;
+	global.todefeat = -1;
 	var back_id = layer_background_get_id("Background");
 	switch(global.level)
 	{
