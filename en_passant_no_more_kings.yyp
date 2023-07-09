@@ -36,9 +36,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/Sprites/Items.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"p_pieces","folderPath":"folders/Sprites/p_pieces.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"pieces","folderPath":"folders/Sprites/pieces.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutorials","folderPath":"folders/Sprites/tutorials.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutorials","folderPath":"folders/Sprites/tutorials.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"666766__noahbangs__castanets-4-fast-clicks.flac","CopyToMask":-1,"filePath":"datafiles",},
@@ -121,6 +121,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

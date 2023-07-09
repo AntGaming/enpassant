@@ -24,9 +24,9 @@
     {"name":"Items","order":8,"path":"folders/Sprites/Items.yy",},
     {"name":"p_pieces","order":5,"path":"folders/Sprites/p_pieces.yy",},
     {"name":"pieces","order":3,"path":"folders/Sprites/pieces.yy",},
-    {"name":"tutorials","order":10,"path":"folders/Sprites/tutorials.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"tutorials","order":10,"path":"folders/Sprites/tutorials.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_teleport","order":1,"path":"sprites/spr_teleport/spr_teleport.yy",},
