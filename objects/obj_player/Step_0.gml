@@ -49,10 +49,6 @@ if(global.level == 4)
 		obj_cutscene_manager.start_cutscene(3)
 	}
 }
-else
-{
-	if(keyboard_check_pressed(vk_space)) global.defeated = global.todefeat;	
-}
 
 if(global.level == 5)
 {

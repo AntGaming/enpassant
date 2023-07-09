@@ -70,6 +70,7 @@
     {"id":{"name":"mus_promotion","path":"sounds/mus_promotion/mus_promotion.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"spr_t_promote","path":"sprites/spr_t_promote/spr_t_promote.yy",},},
+    {"id":{"name":"mus_battle","path":"sounds/mus_battle/mus_battle.yy",},},
     {"id":{"name":"spr_rook_w","path":"sprites/spr_rook_w/spr_rook_w.yy",},},
     {"id":{"name":"spr_death_screen","path":"sprites/spr_death_screen/spr_death_screen.yy",},},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},},

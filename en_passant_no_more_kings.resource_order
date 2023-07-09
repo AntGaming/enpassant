@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"mus_battle","order":1,"path":"sounds/mus_battle/mus_battle.yy",},
+  ],
 }

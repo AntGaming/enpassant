@@ -26,7 +26,6 @@ if(active)
 
 rage = 1-(hp/start_hp);
 
-if(keyboard_check_pressed(vk_space)) damage(20);
 if(!active)
 {
 	image_angle += angle_difference(-90, image_angle) * 0.04;

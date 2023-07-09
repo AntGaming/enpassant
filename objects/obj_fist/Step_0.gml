@@ -5,8 +5,8 @@ if(distance_to_object(obj_king) < 2 && !hit)
 {
 	with(obj_king)
 	{
-		apply_force(1, point_direction(other.x, other.y, x, y));
-		damage(1);
+		apply_force(5, point_direction(other.x, other.y, x, y));
+		damage(2);
 	}
 	hit = true;
 }
