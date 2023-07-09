@@ -38,5 +38,3 @@ if(!active)
 }
 
 depth = -bbox_bottom;
-
-if(keyboard_check_pressed(vk_space)) damage(20);

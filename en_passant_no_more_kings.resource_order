@@ -5,7 +5,7 @@
     {"name":"sfx_passant","order":1,"path":"sounds/sfx_passant/sfx_passant.yy",},
     {"name":"mus_battle","order":1,"path":"sounds/mus_battle/mus_battle.yy",},
     {"name":"mus_pre_promo","order":3,"path":"sounds/mus_pre_promo/mus_pre_promo.yy",},
-    {"name":"sfx_ow","order":2,"path":"sounds/sfx_ow/sfx_ow.yy",},
     {"name":"obj_end_screen","order":1,"path":"objects/obj_end_screen/obj_end_screen.yy",},
+    {"name":"sfx_ow","order":2,"path":"sounds/sfx_ow/sfx_ow.yy",},
   ],
 }

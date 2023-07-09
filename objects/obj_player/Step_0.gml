@@ -11,7 +11,6 @@ if(global.level == 5)
 		y = mouse_y;
 		alarm[0] = room_speed * 0.5;
 		can_passant = false;
-		audio_play_sound(sfx_passant, 1, 0);
 	}
 	
 	if(mouse_check_button(mb_left) && can_fist)
@@ -35,6 +34,7 @@ else if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state =
 	can_passant = false;
 	alarm[1] = room_speed * 0.25;
 	alarm[0] = room_speed * 5;
+	audio_play_sound(sfx_passant, 1, 0);
 }
 
 if(place_meeting(x, y, obj_bigsword) && !passanting)
