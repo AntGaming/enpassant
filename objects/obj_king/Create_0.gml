@@ -12,8 +12,17 @@ vibratecount = 0;
 
 start_time_dmg = 0;
 
-hp = 18;
-rage = 1-(hp/18);
+if(global.level == 5)
+{
+	start_hp = 50;
+}
+else
+{
+	start_hp = 18;
+}
+
+hp = start_hp;
+rage = 1-(hp/start_hp);
 
 instance_create_layer(x, y, "Instances", obj_bigsword, {master: id});
 

@@ -21,16 +21,16 @@ if(room == rm_battle)
 			spawn(0, 20, 2);
 			spawn(3, 3, 10);
 			spawn(1, 5, 8);
-			global.todefeat = 33;
+			global.todefeat = 28;
 			layer_background_sprite(back_id, spr_church);
 			break;
 		case 3:
 			spawn(2, 1, 1);
-			spawn(0, 25, 2);
-			spawn(3, 3, 15);
-			spawn(1, 5, 10);
-			spawn(2, 7, 5);
-			global.todefeat = 49;
+			spawn(0, 22, 2);
+			spawn(3, 2, 25);
+			spawn(1, 3, 15);
+			spawn(2, 5, 10);
+			global.todefeat = 33;
 			layer_background_sprite(back_id, spr_castle);
 			break;
 		case 4:

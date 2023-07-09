@@ -24,7 +24,7 @@ if(active)
 	}
 }
 
-rage = 1-(hp/18);
+rage = 1-(hp/start_hp);
 
 if(keyboard_check_pressed(vk_space)) damage(20);
 if(!active)

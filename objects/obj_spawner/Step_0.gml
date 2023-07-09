@@ -8,5 +8,6 @@ if(room == rm_battle && global.level == 0 && can_spawn)
 
 if(room == rm_battle && global.todefeat == global.defeated)
 {
-	room_goto(rm_level_select);	
+	if(global.level == global.max_level) global.max_level++;
+	room_goto(rm_level_select);
 }

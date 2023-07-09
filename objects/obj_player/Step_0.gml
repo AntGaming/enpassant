@@ -12,6 +12,11 @@ if(global.level == 5)
 		alarm[0] = room_speed * 0.5;
 		can_passant = false;
 	}
+	
+	if(mouse_check_button(mb_left))
+	{
+			
+	}
 }
 else if(mouse_check_button_pressed(mb_right) && can_passant && obj_sword.state == 0)
 {
@@ -35,4 +40,8 @@ if(global.level == 4)
 		global.level = 5;
 		room_restart();
 	}
+}
+else
+{
+	if(keyboard_check_pressed(vk_space)) global.defeated = global.todefeat;	
 }

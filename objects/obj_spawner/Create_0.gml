@@ -1,5 +1,4 @@
 can_spawn = true;
-done = false;
 
 function spawn(type, num, delay)
 {
