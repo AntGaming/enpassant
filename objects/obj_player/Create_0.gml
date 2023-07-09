@@ -58,7 +58,7 @@ function damage(dmg)
 	if(get_timer() - start_time_dmg > 0.5 * power(10, 6))
 	{
 		start_time_dmg = get_timer();
-		audio_play_sound(sfx_slap, 1, false);
+		audio_play_sound(sfx_ow, 1, false);
 		hp -= dmg;
 		if(hp <= 0) room_goto(rm_death_screen);
 	}

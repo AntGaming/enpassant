@@ -11,6 +11,7 @@ if(global.level == 5)
 		y = mouse_y;
 		alarm[0] = room_speed * 0.5;
 		can_passant = false;
+		audio_play_sound(sfx_passant, 1, 0);
 	}
 	
 	if(mouse_check_button(mb_left) && can_fist)
