@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_start_button",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_start",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -23,19 +21,11 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":956.0,"y":0.0,},
-    {"x":956.0,"y":155.0,},
-    {"x":0.0,"y":155.0,},
-  ],
+  "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_start_button",
-    "path": "sprites/spr_start_button/spr_start_button.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

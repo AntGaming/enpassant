@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "buttons",
-    "path": "folders/Objects/gui/buttons.yy",
+    "path": "folders/Sprites/gui/buttons.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

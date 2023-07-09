@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_startbutton",
+  "name": "spr_start_button",
   "bbox_bottom": 132,
   "bbox_left": 38,
   "bbox_right": 926,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f90ce196-9c2c-4e77-9969-e343d3bf1d49",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e522e0d4-841d-44fa-bbb1-795e846e7671",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 155,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1f051c6a-6110-44f9-bdfb-07ab276ad849","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2b14a3f7-d087-45ca-b266-c16fe110ff59","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_startbutton",
+    "name": "spr_start_button",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f90ce196-9c2c-4e77-9969-e343d3bf1d49","path":"sprites/spr_startbutton/spr_startbutton.yy",},},},"Disabled":false,"id":"62b02da7-d1b7-474a-987d-eeab1fc62145","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e522e0d4-841d-44fa-bbb1-795e846e7671","path":"sprites/spr_start_button/spr_start_button.yy",},},},"Disabled":false,"id":"67f89548-73f2-4728-a17b-d6ca89d4d0df","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

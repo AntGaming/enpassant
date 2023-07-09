@@ -1,11 +1,17 @@
 {
   "FolderOrderSettings": [
-    {"name":"buttons","order":1,"path":"folders/Objects/gui/buttons.yy",},
-    {"name":"buttons","order":1,"path":"folders/Sprites/gui/buttons.yy",},
+    {"name":"buttons","order":6,"path":"folders/Sprites/gui/buttons.yy",},
+    {"name":"ability icons","order":4,"path":"folders/Sprites/gui/ability icons.yy",},
+    {"name":"faces","order":5,"path":"folders/Sprites/gui/faces.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_level_button_right","order":1,"path":"sprites/spr_level_button_right/spr_level_button_right.yy",},
     {"name":"rm_level_select","order":2,"path":"rooms/rm_level_select/rm_level_select.yy",},
+    {"name":"obj_start","order":2,"path":"objects/obj_start/obj_start.yy",},
+    {"name":"spr_heart_dead","order":3,"path":"sprites/spr_heart_dead/spr_heart_dead.yy",},
+    {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
+    {"name":"spr_heart_alive","order":2,"path":"sprites/spr_heart_alive/spr_heart_alive.yy",},
+    {"name":"spr_cross","order":1,"path":"sprites/spr_cross/spr_cross.yy",},
     {"name":"rm_title","order":1,"path":"rooms/rm_title/rm_title.yy",},
   ],
 }
