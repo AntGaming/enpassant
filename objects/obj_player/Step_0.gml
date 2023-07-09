@@ -37,8 +37,7 @@ if(global.level == 4)
 {
 	if(!obj_king.active && y <= 64)
 	{
-		global.level = 5;
-		room_restart();
+		obj_cutscene_manager.start_cutscene(3)
 	}
 }
 else

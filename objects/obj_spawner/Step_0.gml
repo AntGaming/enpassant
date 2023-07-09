@@ -8,6 +8,13 @@ if(room == rm_battle && global.level == 0 && can_spawn)
 
 if(room == rm_battle && global.todefeat == global.defeated)
 {
-	if(global.level == global.max_level) global.max_level++;
 	room_goto(rm_level_select);
+	if(global.level == global.max_level)
+	{
+		global.max_level++;
+		if(global.level == 0)
+		{
+			obj_cutscene_manager.start_cutscene(2)
+		}
+	}
 }
