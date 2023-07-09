@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "gui",
-    "path": "folders/Objects/gui.yy",
+    "name": "buttons",
+    "path": "folders/Objects/gui/buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
