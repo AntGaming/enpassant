@@ -2,7 +2,7 @@ switch(global.character)
 {
 	case 0:
 		sprite_index = spr_pawn_p;
-		hp_max = 3;
+		hp_max = 5;
 		break;
 }
 

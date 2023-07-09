@@ -15,7 +15,7 @@ start_time_dmg = 0;
 
 hp = 1;
 
-buddy = instance_create_layer(x, y, "Instances", obj_gun, {master: id});
+buddy = instance_create_layer(-999, -999, "Instances", obj_gun, {master: id});
 
 alarm[0] = wait * room_speed;
 

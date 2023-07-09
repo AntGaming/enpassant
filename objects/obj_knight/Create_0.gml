@@ -1,18 +1,23 @@
-active = true;
-visible = true;
+active = false;
+visible = false;
 
 time_random_adj = random(999999);
 
+if(irandom(1) == 0) sprite_index = spr_knight_w;
+else sprite_index = spr_knight_b;
+
 
 x_vel = 0;
-y_vel = 0;
+y_vel = 0;	
 
 start_time_dmg = 0;
 start_time_pound =-999* power(10,6) ;
-hp = 3;
+hp = 4;
 charge_time = 0.5* power(10, 6);
 max_pound_dist = 300;
-is_jumping=false
+is_jumping=false;
+
+alarm[0] = wait * room_speed;
 
 function pound(pound_dur, d_t)
 {
@@ -24,6 +29,7 @@ function pound(pound_dur, d_t)
 		if(is_jumping == true)
 		{
 			//stomp damage/ shock wave code goes here
+			audio_play_sound(sfx_knight, 1, 0);
 		}
 		is_jumping=false
 		start_time_pound = get_timer();
@@ -57,6 +63,8 @@ function pound(pound_dur, d_t)
 	y += y_vel*d_t/pound_dur;
 	x_vel = lerp(x_vel, 0, 0.1);
 	y_vel = lerp(y_vel, 0, 0.1);
+	
+	
 	bounds();
 }
 

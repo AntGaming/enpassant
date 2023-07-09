@@ -17,11 +17,17 @@ function spawn(type, num, delay)
 		case 2:
 			spawn_target = obj_rook;
 			break;
+		case 3:
+			spawn_target = obj_knight;
+			break;
+		case 4:
+			spawn_target = obj_king;
+			break;
 	}
 	
-	for(var i = 0; i <= num; i++)
+	for(var i = 0; i < num; i++)
 	{
-		with instance_create_layer(1000, 1000, "Instances", spawn_target, {wait: delay * i})
+		with instance_create_layer(1000, 1000, "Instances", spawn_target, {wait: delay * (i+1)})
 		{
 			do
 			{
