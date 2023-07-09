@@ -12,24 +12,36 @@ if(room == rm_battle)
 			layer_background_sprite(back_id, spr_grid);
 			break;
 		case 1:
-			//spawnage
+			spawn(0, 15, 2);
+			spawn(3, 6, 5);
+			global.todefeat = 21;
 			layer_background_sprite(back_id, spr_stables);
 			break;
 		case 2:
-			//spawnage
+			spawn(0, 20, 2);
+			spawn(3, 3, 10);
+			spawn(1, 5, 8);
+			global.todefeat = 33;
 			layer_background_sprite(back_id, spr_church);
 			break;
 		case 3:
-			//spawnage
+			spawn(2, 1, 1);
+			spawn(0, 25, 2);
+			spawn(3, 3, 15);
+			spawn(1, 5, 10);
+			spawn(2, 7, 5);
+			global.todefeat = 49;
 			layer_background_sprite(back_id, spr_castle);
 			break;
 		case 4:
 			spawn(4, 1, 1);
+			global.todefeat = -1;
 			audio_play_sound(mus_fight, 1, true);
 			layer_background_sprite(back_id, spr_throne);
 			break;
 		case 5:
-			//spawnage
+			spawn(4, 1, 1);
+			global.todefeat = -1;
 			audio_play_sound(mus_promotion, 1, true);
 			layer_background_sprite(back_id, spr_throne);
 			break;

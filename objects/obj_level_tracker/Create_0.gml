@@ -1,5 +1,6 @@
 level_ind = global.level
-max_level = 0
+max_level = 4
+
 function change_level(change)
 {
 	level_ind += change

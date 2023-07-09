@@ -41,4 +41,5 @@ if(active)
 		apply_force(2, point_direction(obj_player.x, obj_player.y, x, y));
 		damage(2);
 	}
+	exclude();
 }

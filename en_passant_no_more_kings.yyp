@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"enemeis","folderPath":"folders/Objects/enemeis.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gui","folderPath":"folders/Objects/gui.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/gui/buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"managers","folderPath":"folders/Objects/managers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
@@ -40,7 +41,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tutorials","folderPath":"folders/Sprites/tutorials.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/gui/buttons.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"666766__noahbangs__castanets-4-fast-clicks.flac","CopyToMask":-1,"filePath":"datafiles",},

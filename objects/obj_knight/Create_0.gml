@@ -71,8 +71,8 @@ function pound(pound_dur, d_t)
 //functions
 function apply_force(mag, dir)
 {
-	x_vel += lengthdir_x(mag, dir);
-	y_vel += lengthdir_y(mag, dir);
+	x += lengthdir_x(mag, dir);
+	y += lengthdir_y(mag, dir);
 }
 
 function bounds()
