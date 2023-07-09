@@ -141,6 +141,7 @@
     {"id":{"name":"sfx_cross","path":"sounds/sfx_cross/sfx_cross.yy",},},
     {"id":{"name":"sfx_slap","path":"sounds/sfx_slap/sfx_slap.yy",},},
     {"id":{"name":"obj_healthtracker","path":"objects/obj_healthtracker/obj_healthtracker.yy",},},
+    {"id":{"name":"obj_end_screen","path":"objects/obj_end_screen/obj_end_screen.yy",},},
     {"id":{"name":"spr_bishop_w","path":"sprites/spr_bishop_w/spr_bishop_w.yy",},},
     {"id":{"name":"sfx_swordthrow","path":"sounds/sfx_swordthrow/sfx_swordthrow.yy",},},
     {"id":{"name":"obj_cutscene_manager","path":"objects/obj_cutscene_manager/obj_cutscene_manager.yy",},},
@@ -153,12 +154,12 @@
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_level_select","path":"rooms/rm_level_select/rm_level_select.yy",},},
     {"roomId":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"roomId":{"name":"rm_death_screen","path":"rooms/rm_death_screen/rm_death_screen.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
-    {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

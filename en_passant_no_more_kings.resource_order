@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_end_screen","order":1,"path":"objects/obj_end_screen/obj_end_screen.yy",},
+  ],
 }
