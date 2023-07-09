@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_cutscene",
+  "name": "rm_end_screen",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

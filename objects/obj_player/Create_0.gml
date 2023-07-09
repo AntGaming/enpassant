@@ -58,6 +58,6 @@ function damage(dmg)
 		start_time_dmg = get_timer();
 		audio_play_sound(sfx_slap, 1, false);
 		hp -= dmg;
-		if(hp <= 0) game_restart();
+		if(hp <= 0) room_goto(rm_death_screen);
 	}
 }
