@@ -14,7 +14,7 @@
 - [ ] make the first level easier
 - [ ] overall more forgiving gameplay, possibly difficulty adjust
 
-##QOL
+## QOL
 - [ ] save progress
 - [ ] level play screens in the correct art style
 - [ ] Pause Screen
