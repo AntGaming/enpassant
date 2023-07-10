@@ -1,6 +1,7 @@
 # TODO
-take out a branch when you want to work on a feature then merge with main afterwards
-if you are going to work on something move it to IN PROGRESS, once done move it to DONE
+1) take out a branch when you want to work on a feature then merge with main afterwards
+
+2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
 - [ ] gui scaled down
 
