@@ -15,4 +15,4 @@ else
 
 hp = hp_max;
 
-obj_healthtracker.loadhp();
+obj_gui_manager.loadhp();

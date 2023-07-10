@@ -3,7 +3,12 @@
 
 2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
-- [ ] gui fade when character is in the bottom left or right
+
+## Code
+- [ ] rework enemies so that they are more dependent on par_enemy - easier code changes
+
+## GUI
+- [ ] out of battle cursor
 
 ## Sound
 - [ ] fix the audio in the king fight
@@ -11,6 +16,7 @@
 - [ ] soundtrack for victory & death screen
 
 ## Game Play
+- [ ] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
 - [ ] slightly better tooltip for en passant
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
@@ -27,9 +33,8 @@
 - [ ] lengthen time after winning - (wipe ppt animation?)
 - [ ] "press space to play" text polish
 
-## Mouse
-- [ ] make mouse unable to leave screen
-- [ ] make a crosshair
-
 # Done
+- [x] gui fade when character is in the bottom left or right
+- [x] make mouse unable to leave screen
+- [x] make a crosshair
 - [x] gui scaled down

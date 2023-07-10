@@ -12,7 +12,10 @@
     "name": "gui",
     "path": "folders/Objects/gui.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bottom_gui",
+    "path": "objects/obj_bottom_gui/obj_bottom_gui.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
