@@ -3,7 +3,7 @@
 
 2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
-
+- [ ] gui fade when character is in the bottom left or right
 
 ## Sound
 - [ ] fix the audio in the king fight
@@ -26,8 +26,6 @@
 - [ ] Pause Screen
 - [ ] lengthen time after winning - (wipe ppt animation?)
 - [ ] "press space to play" text polish
-
-- [ ] gui fade when character is in the bottom left or right
 
 ## Mouse
 - [ ] make mouse unable to leave screen
