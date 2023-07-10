@@ -3,7 +3,7 @@
 
 2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
-- [ ] gui scaled down
+
 
 ## Sound
 - [ ] fix the audio in the king fight
@@ -34,3 +34,4 @@
 - [ ] make a crosshair
 
 # Done
+- [x] gui scaled down

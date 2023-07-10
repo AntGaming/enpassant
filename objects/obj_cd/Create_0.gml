@@ -1,0 +1,1 @@
+scale = global.gui_scale
