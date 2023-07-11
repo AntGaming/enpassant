@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_promotion.mp3",
   "type": 1,
-  "volume": 0.4,
+  "volume": 0.71,
 }
