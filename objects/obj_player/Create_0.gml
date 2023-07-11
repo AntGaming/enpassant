@@ -5,6 +5,7 @@ can_fist = true;
 
 start_time_dmg = 0;
 
+time_passant_cooldown = 5
 can_passant = true;
 passanting = false;
 
