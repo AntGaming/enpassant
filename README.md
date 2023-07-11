@@ -35,9 +35,13 @@
 - [ ] visual for immunity
 
 # Done
-- [x] gui fade when character is in the bottom left or right
+## Features
+- [x] gui fade when character is in the bottom of the screen
+- [x] gui fade when crosshair is in the bottom of the screen
 - [x] make mouse unable to leave screen
 - [x] make a crosshair
 - [x] gui scaled down
 - [x] sword hitbox fixed
 - [x] stop enemies spawning on top of you
+## Bugs
+- [x] fixed bug w crosshair not appearing above gui

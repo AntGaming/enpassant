@@ -7,13 +7,13 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
+    {"name":"inst_506FB5FD","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_7A01B4BE","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_775339A5","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_5DE2FB","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_42E832E1","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_13685950","path":"rooms/rm_battle/rm_battle.yy",},
     {"name":"inst_1B5F56F5","path":"rooms/rm_battle/rm_battle.yy",},
-    {"name":"inst_506FB5FD","path":"rooms/rm_battle/rm_battle.yy",},
   ],
   "isDnd": false,
   "layers": [
