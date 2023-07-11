@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "mus_pre_promo.ogg",
-  "type": 0,
-  "volume": 0.18,
+  "type": 1,
+  "volume": 0.03,
 }

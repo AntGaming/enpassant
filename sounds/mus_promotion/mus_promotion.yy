@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "mus_promotion.mp3",
-  "type": 0,
-  "volume": 0.17,
+  "type": 1,
+  "volume": 0.4,
 }

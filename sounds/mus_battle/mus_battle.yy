@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "mus_battle.ogg",
-  "type": 0,
+  "type": 1,
   "volume": 0.25,
 }
