@@ -32,9 +32,12 @@
 - [ ] Pause Screen
 - [ ] lengthen time after winning - (wipe ppt animation?)
 - [ ] "press space to play" text polish
+- [ ] visual for immunity
 
 # Done
 - [x] gui fade when character is in the bottom left or right
 - [x] make mouse unable to leave screen
 - [x] make a crosshair
 - [x] gui scaled down
+- [x] sword hitbox fixed
+- [x] stop enemies spawning on top of you
