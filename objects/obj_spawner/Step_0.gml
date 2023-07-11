@@ -16,5 +16,6 @@ if(room == rm_battle && global.todefeat == global.defeated)
 		{
 			obj_cutscene_manager.start_cutscene(2)
 		}
+		if(global.max_level != 5) global.level++;
 	}
 }
