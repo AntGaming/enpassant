@@ -18,7 +18,7 @@ dash_state = -1;
 vibratecount = 0;
 
 #macro DASH_CD 2
-#macro DASH_WINDUP 1
+#macro DASH_WINDUP 2
 
 alarm[0] = wait * room_speed;
 

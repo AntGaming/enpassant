@@ -14,7 +14,7 @@ if(active)
 	{
 		image_angle = 0;
 		audio_play_sound(sfx_charge, 1, 0);
-		apply_force(80, point_direction(x, y, obj_player.x, obj_player.y));
+		apply_force(60, point_direction(x, y, obj_player.x, obj_player.y));
 		instance_destroy(buddy);
 		dash_state = -1;
 		alarm[1] = room_speed * DASH_CD;
@@ -35,7 +35,7 @@ if(active)
 		}
 	}
 	
-	if(place_meeting(x, y, obj_sword) && obj_sword.extension >= 0.8)
+	if(place_meeting(x, y, obj_sword) && obj_sword.extension >= 0.6)
 	{
 		apply_force(2, point_direction(obj_player.x, obj_player.y, x, y));
 		damage(1);

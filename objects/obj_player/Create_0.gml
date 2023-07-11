@@ -56,7 +56,7 @@ function bounds()
 function damage(dmg)
 {
 	//check immunity
-	if(get_timer() - start_time_dmg > 0.5 * power(10, 6))
+	if(get_timer() - start_time_dmg > 0.8 * power(10, 6))
 	{
 		start_time_dmg = get_timer();
 		audio_play_sound(sfx_ow, 1, false);

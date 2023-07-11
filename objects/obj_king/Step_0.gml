@@ -11,7 +11,7 @@ if(active)
 		}
 	}
 	
-	if(place_meeting(x, y, obj_sword) && obj_sword.extension >= 0.8)
+	if(place_meeting(x, y, obj_sword) && obj_sword.extension >= 0.6)
 	{
 		apply_force(2, point_direction(obj_player.x, obj_player.y, x, y));
 		damage(1);
