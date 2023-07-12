@@ -3,6 +3,7 @@
 
 2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
+- [ ] tutorial that shows people how en passant works
 
 ## Code
 - [ ] rework enemies so that they are more dependent on par_enemy - easier code changes
@@ -11,16 +12,14 @@
 
 
 ## Sound
-- [ ] fix the audio in the king fight
 - [ ] sound effects for more things
 - [ ] soundtrack for victory & death screen
+- [ ] cut out dead audio space at the beginning of npc music (level select)
 
 ## Game Play
 - [ ] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
-- [ ] slightly better tooltip for en passant
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
-- [ ] tutorial that shows people how en passant works
 - [ ] more cutscenes
 - [ ] make the first level easier
 - [ ] overall more forgiving gameplay, possibly difficulty adjust
@@ -31,7 +30,7 @@
 - [ ] Pause Screen
 - [ ] lengthen time after winning - (wipe ppt animation?)
 - [ ] "press space to play" text polish
-- [ ] visual for immunity
+
 
 # Done
 ## Features
@@ -43,6 +42,9 @@
 - [x] sword hitbox fixed
 - [x] stop enemies spawning on top of you
 - [x] allow en passant directly after auto
+- [x] lengthen time after death + death screen animation
+- [x] visual for immunity
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor
+- [x] fix the audio in the king fight

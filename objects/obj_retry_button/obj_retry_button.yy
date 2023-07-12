@@ -11,7 +11,10 @@
     "name": "buttons",
     "path": "folders/Objects/gui/buttons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_death_screen_button",
+    "path": "objects/par_death_screen_button/par_death_screen_button.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

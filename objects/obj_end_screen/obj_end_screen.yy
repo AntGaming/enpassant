@@ -3,7 +3,6 @@
   "resourceVersion": "1.0",
   "name": "obj_end_screen",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
@@ -12,7 +11,10 @@
     "name": "gui",
     "path": "folders/Objects/gui.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_animate_once",
+    "path": "objects/par_animate_once/par_animate_once.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
