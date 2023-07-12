@@ -14,6 +14,7 @@
 - [ ] fix the audio in the king fight
 - [ ] sound effects for more things
 - [ ] soundtrack for victory & death screen
+- [ ] cut out dead audio space at the beginning of npc music (level select)
 
 ## Game Play
 - [ ] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
@@ -43,6 +44,7 @@
 - [x] sword hitbox fixed
 - [x] stop enemies spawning on top of you
 - [x] allow en passant directly after auto
+- [x] lengthen time after death + death screen animation
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor
