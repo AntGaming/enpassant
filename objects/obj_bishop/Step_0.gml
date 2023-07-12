@@ -14,7 +14,7 @@ if(active)
 	{
 		image_angle = 0;
 		audio_play_sound(sfx_charge, 1, 0);
-		apply_force(60, point_direction(x, y, obj_player.x, obj_player.y));
+		apply_force(80, point_direction(x, y, obj_player.x, obj_player.y));
 		instance_destroy(buddy);
 		dash_state = -1;
 		alarm[1] = room_speed * DASH_CD;

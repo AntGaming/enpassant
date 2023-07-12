@@ -1,4 +1,4 @@
-draw_self();
+draw_sprite_ext(spr_pawn_p, 0, x, y, 1, 1, image_angle, (red ? c_red : c_white), 1);
 
 if(global.level == 5 && !can_passant)
 {

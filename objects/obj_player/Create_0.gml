@@ -9,6 +9,9 @@ time_passant_cooldown = 5
 can_passant = true;
 passanting = false;
 
+alarm[3] = room_speed * 0.1;
+red = true;
+
 function p_movement()
 {
 	var move_h = (keyboard_check(ord("D")) || keyboard_check(vk_right)) - (keyboard_check(ord("A")) || keyboard_check(vk_left));

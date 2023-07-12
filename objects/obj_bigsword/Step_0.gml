@@ -61,7 +61,7 @@ switch(state)
 		
 	case 11:
 		diff = angle_difference(point_direction(master.x, master.y, obj_player.x, obj_player.y), image_angle);
-		image_angle += diff*0.03 + (0.05 * master.rage);
+		image_angle += diff*(0.03 + 0.05 * master.rage);
 		
 		
 		x = master.x + lengthdir_x(150, image_angle);
