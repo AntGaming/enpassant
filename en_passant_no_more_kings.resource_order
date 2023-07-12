@@ -34,6 +34,7 @@
     {"name":"spr_pawn_w","order":2,"path":"sprites/spr_pawn_w/spr_pawn_w.yy",},
     {"name":"obj_end_screen","order":1,"path":"objects/obj_end_screen/obj_end_screen.yy",},
     {"name":"spr_bishop_w","order":1,"path":"sprites/spr_bishop_w/spr_bishop_w.yy",},
+    {"name":"spr_cursor","order":1,"path":"sprites/spr_cursor/spr_cursor.yy",},
     {"name":"obj_cutscene_manager","order":1,"path":"objects/obj_cutscene_manager/obj_cutscene_manager.yy",},
     {"name":"sfx_ow","order":2,"path":"sounds/sfx_ow/sfx_ow.yy",},
   ],
