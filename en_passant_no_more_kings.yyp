@@ -148,6 +148,7 @@
     {"id":{"name":"obj_gui_manager","path":"objects/obj_gui_manager/obj_gui_manager.yy",},},
     {"id":{"name":"obj_end_screen","path":"objects/obj_end_screen/obj_end_screen.yy",},},
     {"id":{"name":"spr_bishop_w","path":"sprites/spr_bishop_w/spr_bishop_w.yy",},},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"sfx_swordthrow","path":"sounds/sfx_swordthrow/sfx_swordthrow.yy",},},
     {"id":{"name":"obj_cutscene_manager","path":"objects/obj_cutscene_manager/obj_cutscene_manager.yy",},},
     {"id":{"name":"spr_cross","path":"sprites/spr_cross/spr_cross.yy",},},
@@ -156,7 +157,7 @@
     {"id":{"name":"spr_stables","path":"sprites/spr_stables/spr_stables.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"sfx_ow","path":"sounds/sfx_ow/sfx_ow.yy",},},
-    {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},},
+    {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
   ],
   "RoomOrderNodes": [

@@ -8,7 +8,7 @@
 - [ ] rework enemies so that they are more dependent on par_enemy - easier code changes
 
 ## GUI
-- [ ] out of battle cursor
+
 
 ## Sound
 - [ ] fix the audio in the king fight
@@ -45,3 +45,4 @@
 - [x] stop enemies spawning on top of you
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
+- [x] out of battle cursor
