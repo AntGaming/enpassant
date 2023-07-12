@@ -20,7 +20,6 @@
 - [ ] slightly better tooltip for en passant
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
-- [ ] allow en passant directly after auto
 - [ ] tutorial that shows people how en passant works
 - [ ] more cutscenes
 - [ ] make the first level easier
@@ -43,6 +42,7 @@
 - [x] gui scaled down
 - [x] sword hitbox fixed
 - [x] stop enemies spawning on top of you
+- [x] allow en passant directly after auto
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor
