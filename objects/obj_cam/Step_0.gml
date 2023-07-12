@@ -1,11 +1,11 @@
-if (instance_exists(follow))
+if (instance_exists(follow)) //&& !(!obj_player.can_passant && global.level == 5))
 {
 	xTo = lerp(follow.x, mouse_x, 0.2);;
 	yTo = lerp(follow.y, mouse_y, 0.2);;
 }
 
-x = lerp(x, xTo, 0.1);
-y = lerp(y, yTo, 0.1);
+x = lerp(x, xTo, lerping);
+y = lerp(y, yTo, lerping);
 
 x = clamp(x, view_w_half, room_width - view_w_half);
 y = clamp(y, view_h_half, room_height - view_h_half);

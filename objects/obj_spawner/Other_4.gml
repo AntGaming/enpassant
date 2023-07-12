@@ -7,8 +7,15 @@ if(room == rm_battle)
 	var back_id = layer_background_get_id("Background");
 	switch(global.level)
 	{
+		case -1:
+			audio_play_sound(mus_tutorial, 1, true);
+			layer_background_sprite(back_id, spr_grid);
+			global.todefeat = 1;
+			break;
 		case 0:
-			can_spawn = false;
+			spawn(0, 30, 1);
+			spawn(0, 10, 2);
+			global.todefeat = 40;
 			audio_play_sound(mus_battle, 1, true);
 			layer_background_sprite(back_id, spr_grid);
 			break;

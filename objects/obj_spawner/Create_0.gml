@@ -1,5 +1,3 @@
-can_spawn = true;
-
 function spawn(type, num, delay)
 {
 	var spawn_target;

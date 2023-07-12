@@ -16,3 +16,5 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 
 xTo = xstart;
 yTo = ystart;
+
+lerping = 0.2;

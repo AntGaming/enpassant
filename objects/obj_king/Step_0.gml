@@ -37,4 +37,6 @@ if(!active)
 	vibratecount++;
 }
 
+if(keyboard_check_pressed(vk_tab)) damage(20);
+
 depth = -bbox_bottom;

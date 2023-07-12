@@ -3,12 +3,19 @@ level_ind = global.level
 function change_level(change)
 {
 	level_ind += change
-	level_ind= clamp(level_ind, 0, global.max_level)
+	if(global.level == -1)
+	{
+		level_ind= clamp(level_ind, -1, global.max_level)
+	}
+	else
+	{
+		level_ind= clamp(level_ind, 0, global.max_level)	
+	}
 	image_index=level_ind
 	
 	obj_level_button_left.visible = true
 	obj_level_button_right.visible = true
-	if (level_ind==0)
+	if (level_ind==-1 || level_ind==0)
 	{
 		obj_level_button_left.visible = false
 	}
