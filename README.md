@@ -6,7 +6,10 @@
 - [ ] tutorial that shows people how en passant works
 
 ## Code
-- [ ] rework enemies so that they are more dependent on par_enemy - easier code changes
+
+
+## Drawing
+- [ ] training dummy sprite
 
 ## GUI
 
@@ -45,6 +48,7 @@
 - [x] allow en passant directly after auto
 - [x] lengthen time after death + death screen animation
 - [x] visual for immunity
+- [x] rework enemies so that they are more dependent on par_enemy - easier code changes
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor

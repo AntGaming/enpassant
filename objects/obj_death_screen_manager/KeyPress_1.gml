@@ -1,1 +1,1 @@
-image_index = sprite_get_number(spr_death_screen)-1
+ image_index = sprite_get_number(spr_death_screen)-1
