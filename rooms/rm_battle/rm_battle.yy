@@ -18,20 +18,7 @@
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"OldFilm","depth":0,"effectEnabled":true,"effectType":"_filter_old_film","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_OldFilmFlickerIntensity","type":0,"value":"0.2",},
-        {"name":"g_OldFilmFlickerSpeed","type":0,"value":"5",},
-        {"name":"g_OldFilmJitterIntensity","type":0,"value":"4",},
-        {"name":"g_OldFilmSaturation","type":0,"value":"0.5",},
-        {"name":"g_OldFilmSpeckIntensity","type":0,"value":"0.4",},
-        {"name":"g_OldFilmBarScale","type":0,"value":"1",},
-        {"name":"g_OldFilmBarSpeed","type":0,"value":"1",},
-        {"name":"g_OldFilmBarFrequency","type":0,"value":"40",},
-        {"name":"g_OldFilmRingScale","type":0,"value":"1",},
-        {"name":"g_OldFilmRingSharpness","type":0,"value":"64",},
-        {"name":"g_OldFilmRingIntensity","type":0,"value":"1",},
-        {"name":"g_OldFilmTexture","type":2,"value":"_filter_old_film_texture",},
-      ],"userdefinedDepth":true,"visible":true,},
+    {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"OldFilm","depth":0,"effectEnabled":false,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Folder_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Tp","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DAADD83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tp_effect_drawer","path":"objects/obj_tp_effect_drawer/obj_tp_effect_drawer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":32.0,},

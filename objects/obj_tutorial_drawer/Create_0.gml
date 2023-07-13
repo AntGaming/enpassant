@@ -1,0 +1,1 @@
+layer_set_fx(layer_get_id("OldFilm"), fx_create("_filter_old_film"));
