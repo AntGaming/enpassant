@@ -5,8 +5,8 @@
 ## In progress
 - [ ] tutorial that shows people how en passant works
 
-## Code
-
+## Code/Bugs
+- [ ] knights not excluding? 
 
 ## Drawing
 - [ ] training dummy sprite
@@ -20,6 +20,7 @@
 - [ ] cut out dead audio space at the beginning of npc music (level select)
 
 ## Game Play
+- [ ] knights jumping at different times instead of all at the same time
 - [ ] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
@@ -29,6 +30,7 @@
 - [ ] speech bubble on the king for max troll or fix en passant cheese in king fight
 
 ## QOL
+- [ ] Dev mode global - make it easier to test and skip cutscenes
 - [ ] save progress
 - [ ] level play screens in the correct art style
 - [ ] Pause Screen
