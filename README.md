@@ -23,6 +23,7 @@
 - [ ] more cutscenes
 - [ ] make the first level easier
 - [ ] overall more forgiving gameplay, possibly difficulty adjust
+- [ ] speech bubble on the king for max troll or fix en passant cheese in king fight
 
 ## QOL
 - [ ] save progress
