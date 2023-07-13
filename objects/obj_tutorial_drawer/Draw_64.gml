@@ -1,1 +1,1 @@
-if(global.level == -1) draw_sprite(spr_tutorial, 0, 0, 0);
+if(global.level == -1) draw_sprite(spr_tutorial, progress, 0, 0);
