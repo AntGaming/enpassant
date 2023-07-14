@@ -7,6 +7,7 @@ switch(state)
 		if(mouse_check_button(mb_left))
 		{
 			state = 1;
+			obj_tutorial_drawer.stabcount++;
 		}
 		break;
 	

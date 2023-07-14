@@ -1,4 +1,4 @@
-if(room == rm_battle && global.todefeat == global.defeated)
+if(room == rm_battle && (global.todefeat == global.defeated || (global.level == -1 && keyboard_check(vk_escape))))
 {
 	room_goto(rm_level_select);
 	if(global.level == global.max_level)

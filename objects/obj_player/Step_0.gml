@@ -33,7 +33,9 @@ else if(mouse_check_button_pressed(mb_right) && can_passant)
 	apply_force(25, point_direction(x, y, mouse_x, mouse_y));
 	can_passant = false;
 	alarm[1] = room_speed * 0.25;
-	alarm[0] = room_speed * time_passant_cooldown;
+	if(global.level == -1) alarm[0] = room_speed * 1;
+	else alarm[0] = room_speed * time_passant_cooldown;
+	obj_tutorial_drawer.passantcount++;
 	audio_play_sound(sfx_passant, 1, 0);
 }
 
