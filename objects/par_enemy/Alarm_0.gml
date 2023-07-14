@@ -1,6 +1,5 @@
-active = true;
-visible = true;
-
+visible = true
+active = true
 do
 {
 	x = irandom(room_width);

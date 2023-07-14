@@ -12,7 +12,7 @@ vibratecount = 0;
 
 alarm[0] = wait * room_speed;
 
-function move(d_t)
+function move()
 {
 	if(dash_state == 0)
 	{
