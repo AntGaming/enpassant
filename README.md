@@ -3,10 +3,9 @@
 
 2) if you are going to work on something move it to IN PROGRESS, once done move it to DONE
 ## In progress
-- [ ] tutorial that shows people how en passant works
 
 ## Code/Bugs
-
+- [ ] level select and reset buttons sometimes disappear when you die
 
 ## Drawing
 - [ ] training dummy sprite
@@ -24,8 +23,6 @@
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
 - [ ] more cutscenes
-- [ ] make the first level easier
-- [ ] overall more forgiving gameplay, possibly difficulty adjust
 - [ ] speech bubble on the king for max troll or fix en passant cheese in king fight
 
 ## QOL
@@ -51,7 +48,9 @@
 - [x] rework enemies so that they are more dependent on par_enemy - easier code changes
 - [x] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
 - [x] made rook ai more complex
-
+- [x] tutorial that shows people how en passant works
+- [x] make the first level easier
+- [x] overall more forgiving gameplay, possibly difficulty adjust
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor
