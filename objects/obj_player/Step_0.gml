@@ -27,7 +27,7 @@ if(global.level == 5)
 		alarm[2] = room_speed * 0.1;
 	}
 }
-else if(mouse_check_button_pressed(mb_right) && can_passant)
+else if(mouse_check_button_pressed(mb_right) && can_passant && !(global.level == -1 && obj_tutorial_drawer.progress < 3))
 {
 	passanting = true;
 	apply_force(25, point_direction(x, y, mouse_x, mouse_y));

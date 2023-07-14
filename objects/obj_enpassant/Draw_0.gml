@@ -1,1 +1,1 @@
-draw_self()
+if(!(global.level == -1 && obj_tutorial_drawer.progress < 3)) draw_self();
