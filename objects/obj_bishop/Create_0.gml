@@ -42,24 +42,3 @@ function move()
 		image_angle = sin(get_timer()/50000 + time_random_adj) * sqrt(power(x_vel, 2) + power(y_vel, 2)) * 2;
 	}
 }
-
-//functions
-function damage(dmg)
-{
-	//check immunity
-	if(get_timer() - start_time_dmg > 0.25 * power(10, 6))
-	{
-		start_time_dmg = get_timer();
-		audio_play_sound(sfx_slap, 1, false);
-		hp -= dmg;
-		if(hp <= 0) instance_destroy();
-		
-		if(dash_state != -1)
-		{
-			dash_state = -1;
-			instance_destroy(buddy);
-		}
-		alarm[1] = room_speed * DASH_CD;
-		
-	}
-}

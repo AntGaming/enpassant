@@ -18,7 +18,7 @@ function move()
 	if(dist_player< 400)
 	{
 		dir = point_direction(obj_player.x, obj_player.y, x, y)
-		mag = 0.1
+		mag = 0.07
 	}
 	else if (dist_player>500)
 	{
