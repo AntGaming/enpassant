@@ -6,9 +6,9 @@ x_vel_pound=0
 y_vel_pound=0
 start_time_pound =-999* power(10,6) ;
 
-pound_dur = 0.5 * power(10,6)
+pound_dur = 2 * power(10,6) / (2 +  global.difficulty)
 hp = 4;
-charge_time = 0.5* power(10, 6);
+charge_time = 2 * power(10, 6) / (2 +  global.difficulty);
 max_pound_dist = 300;
 is_jumping=false;
 

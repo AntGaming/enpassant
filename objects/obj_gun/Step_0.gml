@@ -15,10 +15,10 @@ else
 		{
 			shoot();
 		}
-		if(boom == 30)
+		if(boom == 20 + (10 * global.difficulty))
 		{
 			shoot_state = -1;
-			alarm[0] = room_speed * 4;
+			alarm[0] = room_speed * (4 - global.difficulty);
 		}
 	}
 }

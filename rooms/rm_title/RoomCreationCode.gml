@@ -1,6 +1,7 @@
 window_set_fullscreen(true)
 global.level = -1
 global.max_level= -1
+global.difficulty = 0;
 keyboard_set_map(ord("W"), vk_up)
 keyboard_set_map(ord("A"), vk_left)
 keyboard_set_map(ord("S"), vk_down)

@@ -3,6 +3,7 @@ switch(state)
 	case -1:
 		visible = false;
 		break;
+	/*
 	case 0:
 		visible = true;
 		sprite_index = spr_t_move;
@@ -30,6 +31,7 @@ switch(state)
 	case 3:
 		visible = false;
 		break;
+	*/
 	case 4:
 		visible = false;
 		if(!obj_king.active) state = 5;
@@ -38,6 +40,8 @@ switch(state)
 		visible = true;
 		sprite_index = spr_t_promote;
 		break;
+	default:
+		visible = false;
 }
 
 depth = -99999999;

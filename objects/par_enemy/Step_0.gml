@@ -27,6 +27,6 @@ if(active)
 		damaged = damaged || damage(2);
 	}	
 	bounds()
-	exclude()
+	if(object_index != obj_king) exclude()
 }
 if(died&&destroy_after_death) instance_destroy()

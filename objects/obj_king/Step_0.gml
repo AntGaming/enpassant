@@ -1,6 +1,8 @@
 event_inherited()
 
-rage = 1-(hp/start_hp);
+if(global.difficulty == 3) rage = 1;
+else if (global.difficulty == 0) rage = 0;
+else rage = 1-(hp/start_hp);
 
 //only reset the sprite once
 if(died && active)

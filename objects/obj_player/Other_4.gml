@@ -7,7 +7,7 @@ if(global.level == 5)
 else
 {
 	sprite_index = spr_pawn_p;
-	hp_max = 5;
+	hp_max = 7 - (2*global.difficulty);
 	move_speed = 0.4;
 	instance_create_layer(x, y, "Instances", obj_sword, {master: id});
 	instance_create_layer(x, y, "Instances", obj_enpassant, {master: id});

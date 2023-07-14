@@ -16,13 +16,13 @@ if(global.level == -1)
 			}
 			break;
 		case 1:
-			if(stabcount >= 5 && alarm[0] == -1)	alarm[0] = room_speed * 1;
+			if(stabcount >= 3 && alarm[0] == -1)	alarm[0] = room_speed * 3;
 			break;
 		case 2:
 			if(alarm[0] == -1) alarm[0] = room_speed * 7;
 			break;
 		case 3:
-			if(passantcount >= 3 && alarm[0] == -1)	alarm[0] = room_speed * 1;
+			if(passantcount >= 2 && alarm[0] == -1)	alarm[0] = room_speed * 3;
 			break;
 		case 4:
 			if(alarm[0] == -1) alarm[0] = room_speed * 7;

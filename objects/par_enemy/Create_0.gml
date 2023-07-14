@@ -47,7 +47,8 @@ function damage(dmg)
 	{
 		start_time_dmg = get_timer();
 		audio_play_sound(sfx_slap, 1, false);
-		hp -= dmg;
+		if(global.difficulty == 0 && object_index != obj_king) hp = 0;
+		else hp -= dmg;
 		died = hp <= 0 
 		return true
 	}
