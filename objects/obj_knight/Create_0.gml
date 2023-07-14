@@ -1,7 +1,7 @@
 event_inherited()
 
 sprite_index = spr_knight_w;
-
+mass =2
 x_vel_pound=0
 y_vel_pound=0
 start_time_pound =-999* power(10,6) ;
@@ -12,7 +12,7 @@ charge_time = 0.5* power(10, 6);
 max_pound_dist = 300;
 is_jumping=false;
 
-alarm[0] = wait * room_speed;
+alarm[0] = wait* room_speed;
 function move()
 {
 	if ((get_timer()-start_time_pound)-charge_time> pound_dur)
@@ -51,6 +51,4 @@ function move()
 		image_xscale=(3-power(2*t-1,2))/2
 		image_yscale=image_xscale
 	}
-	
-	
 }

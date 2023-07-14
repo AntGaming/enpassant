@@ -9,7 +9,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fist","order":4,"path":"objects/obj_fist/obj_fist.yy",},
-    {"name":"obj_gun","order":5,"path":"objects/obj_gun/obj_gun.yy",},
+    {"name":"obj_gun","order":6,"path":"objects/obj_gun/obj_gun.yy",},
     {"name":"obj_rook","order":4,"path":"objects/obj_rook/obj_rook.yy",},
     {"name":"mus_title","order":2,"path":"sounds/mus_title/mus_title.yy",},
     {"name":"spr_knight_w","order":7,"path":"sprites/spr_knight_w/spr_knight_w.yy",},

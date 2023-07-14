@@ -3,7 +3,7 @@ event_inherited();
 sprite_index = spr_pawn_w;
 
 hp = 2;
-
+speed_cap = 13
 alarm[0] = wait * room_speed;
 
 function move()

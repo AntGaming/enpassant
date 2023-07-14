@@ -7,6 +7,9 @@ time_random_adj = random(999999);
 time_step_scale = 1/144 * power(10,6)
 active = false;
 visible = false;
+mass=1
+speed_cap=99999
+
 
 function bounds()
 {
@@ -18,8 +21,8 @@ function bounds()
 
 function apply_force(mag, dir)
 {
-	x_vel += lengthdir_x(mag, dir);
-	y_vel += lengthdir_y(mag, dir);
+	x_vel += lengthdir_x(mag/mass, dir);
+	y_vel += lengthdir_y(mag/mass, dir);
 }
 
 function exclude()

@@ -6,7 +6,7 @@
 - [ ] tutorial that shows people how en passant works
 
 ## Code/Bugs
-- [ ] knights not excluding? 
+
 
 ## Drawing
 - [ ] training dummy sprite
@@ -20,8 +20,7 @@
 - [ ] cut out dead audio space at the beginning of npc music (level select)
 
 ## Game Play
-- [ ] knights jumping at different times instead of all at the same time
-- [ ] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
+- [ ] knights jumping at different times instead of all at the same time?
 - [ ] other playable characters w/ different storylines
 - [ ] scrolling credits at the end?
 - [ ] more cutscenes
@@ -37,7 +36,6 @@
 - [ ] lengthen time after winning - (wipe ppt animation?)
 - [ ] "press space to play" text polish
 
-
 # Done
 ## Features
 - [x] gui fade when character is in the bottom of the screen
@@ -51,7 +49,11 @@
 - [x] lengthen time after death + death screen animation
 - [x] visual for immunity
 - [x] rework enemies so that they are more dependent on par_enemy - easier code changes
+- [x] apply some sort of speed cap to enemies - they can fly at you bc of exclusion ( rework enemies first? )
+- [x] made rook ai more complex
+
 ## Bugs
 - [x] fixed bug w crosshair not appearing above gui
 - [x] out of battle cursor
 - [x] fix the audio in the king fight
+- [x] knights not excluding? 
