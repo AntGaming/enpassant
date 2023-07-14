@@ -11,7 +11,7 @@ if(global.level == 5)
 }
 else
 {
-	start_hp = 18;
+	start_hp = 9 + (9*global.difficulty);
 }
 
 hp = start_hp;
