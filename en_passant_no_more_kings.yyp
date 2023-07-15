@@ -143,6 +143,7 @@
     {"id":{"name":"spr_continue_text","path":"sprites/spr_continue_text/spr_continue_text.yy",},},
     {"id":{"name":"obj_king","path":"objects/obj_king/obj_king.yy",},},
     {"id":{"name":"spr_throne","path":"sprites/spr_throne/spr_throne.yy",},},
+    {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"rm_death_screen","path":"rooms/rm_death_screen/rm_death_screen.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},

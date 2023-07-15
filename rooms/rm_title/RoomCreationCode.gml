@@ -26,3 +26,5 @@ if(global.debug)
 		room_goto(rm_level_select)
 	}
 }
+
+
