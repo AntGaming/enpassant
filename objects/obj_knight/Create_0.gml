@@ -12,7 +12,6 @@ charge_time = 2 * power(10, 6) / (2 +  global.difficulty);
 max_pound_dist = 300;
 is_jumping=false;
 
-alarm[0] = wait* room_speed;
 function move()
 {
 	if ((get_timer()-start_time_pound)-charge_time> pound_dur)

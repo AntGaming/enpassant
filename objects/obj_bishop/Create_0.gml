@@ -9,8 +9,8 @@ vibratecount = 0;
 
 #macro DASH_CD 4 / (1 +  global.difficulty)
 #macro DASH_WINDUP 4 / (2 +  global.difficulty)
+alarm[1] = room_speed * DASH_CD;
 
-alarm[0] = wait * room_speed;
 
 function move()
 {

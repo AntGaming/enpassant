@@ -44,21 +44,24 @@ if(place_meeting(x, y, obj_bigsword) && !passanting)
 	apply_force(30, point_direction(obj_bigsword.x, obj_bigsword.y, x, y));
 	damage(1);
 }
-
-if(global.level == 4)
+if (instance_exists(obj_king))
 {
-	if(!obj_king.active && y <= 64)
+	if(global.level == 4)
 	{
-		obj_cutscene_manager.start_cutscene(3)
+		if(!obj_king.active && y <= 64)
+		{
+			obj_cutscene_manager.start_cutscene(3)
+		}
+	}
+
+	if(global.level == 5)
+	{
+		if(!obj_king.active)
+		{
+			room_goto(rm_end_screen)
+		}
 	}
 }
 
-if(global.level == 5)
-{
-	if(!obj_king.active)
-	{
-		room_goto(rm_end_screen)
-	}
-}
 
 if(get_timer() - start_time_dmg > 0.8 * power(10, 6)) red = false;

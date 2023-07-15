@@ -1,13 +1,18 @@
 event_inherited();
 
+
+
 destroy_after_death=false
 spin_clockwise = true
 alarm[1] = time_random_adj
-alarm[0] = wait * room_speed;
 sprite_index = spr_rook_w;
 hp = 1;
 
 buddy = instance_create_layer(-999, -999, "Instances", obj_gun, {master: id});
+buddy.alarm[0] = room_speed * 4;
+buddy_mark=instance_create_layer(x, y, "Jesus", obj_cross, {master: id, type: 1});
+audio_play_sound(sfx_rook, 1, 0);
+
 
 function move()
 {
