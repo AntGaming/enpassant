@@ -1,3 +1,4 @@
+if(global.paused) exit
 if(!master.passanting) 
 {
 	image_angle = point_direction(master.x, master.y, mouse_x, mouse_y);

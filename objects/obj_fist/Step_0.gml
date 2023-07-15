@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 x += lengthdir_x(move_speed, dir);
 y += lengthdir_y(move_speed, dir);
 	

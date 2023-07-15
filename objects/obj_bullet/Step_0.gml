@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 for(var i = 0; i < move_speed; i++)
 {
 	x += lengthdir_x(1, dir);

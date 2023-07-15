@@ -3,6 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
-
-x+= x_vel_pound*delta_time
-y+= y_vel_pound*delta_time
+if(active)
+{
+	x+= x_vel_pound*delta_time
+	y+= y_vel_pound*delta_time
+}

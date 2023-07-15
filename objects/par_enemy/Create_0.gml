@@ -1,5 +1,5 @@
+was_active=true
 destroy_after_death = true
-start_time_dmg = 0
 died = false
 x_vel = 0;
 y_vel = 0;
@@ -8,6 +8,7 @@ time_step_scale = 1/room_speed * power(10,6)
 active = true;
 mass=1
 speed_cap=99999
+immune = false
 enum enemies
 {
 	pawn=0,
@@ -58,9 +59,10 @@ function exclude()
 function damage(dmg)
 {
 	//check immunity
-	if(get_timer() - start_time_dmg > 0.25 * power(10, 6))
+	if(!immune)
 	{
-		start_time_dmg = get_timer();
+		immune=true
+		time_source_start(immune_cooldown)
 		audio_play_sound(sfx_slap, 1, false);
 		if(global.difficulty == 0 && object_index != obj_king) hp = 0;
 		else hp -= dmg;
@@ -70,6 +72,12 @@ function damage(dmg)
 	return false
 }
 
+function set_immune(obj, val)
+{
+	obj.immune=val
+}
+
+immune_cooldown = time_source_create(time_source_game, 0.25, time_source_units_seconds, set_immune, [self, false])
 //function save()
 //{
 //	ini_open("Enemies.ini")

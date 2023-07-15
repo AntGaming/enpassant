@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 fly_speed = 20 + (10 * master.rage);
 
 switch(state)

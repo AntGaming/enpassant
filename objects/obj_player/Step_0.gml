@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 p_movement();
 
 depth = -bbox_bottom;
@@ -62,6 +64,5 @@ if (instance_exists(obj_king))
 		}
 	}
 }
+if(!immune) red = false;
 
-
-if(get_timer() - start_time_dmg > 0.8 * power(10, 6)) red = false;

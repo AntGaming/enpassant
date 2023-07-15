@@ -6,6 +6,7 @@ current_cutscene_ind = 0
 
 function start_cutscene(cutscene_ind)
 {
+	if(global.debug) return
 	room_goto(rm_cutscene)
 	time_last_skip = get_timer()
 	current_cutscene_ind = cutscene_ind

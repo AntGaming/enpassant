@@ -16,7 +16,10 @@
     "name": "weapons",
     "path": "folders/Objects/weapons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_pausable",
+    "path": "objects/obj_pausable/obj_pausable.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

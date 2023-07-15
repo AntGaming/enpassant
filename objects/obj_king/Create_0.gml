@@ -1,8 +1,5 @@
 event_inherited();
 destroy_after_death=false
-
-active = true;
-visible = true;
 vibratecount = 0;
 
 if(global.level == 5)

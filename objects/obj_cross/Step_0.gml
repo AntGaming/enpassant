@@ -1,3 +1,4 @@
+if(global.paused) exit
 x = lerp(obj_player.x, master.x, 0.2);;
 y = lerp(obj_player.y, master.y, 0.2);;
 

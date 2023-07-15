@@ -3,7 +3,6 @@ y_vel = 0;
 
 can_fist = true;
 
-start_time_dmg = 0;
 
 time_passant_cooldown = 5
 can_passant = true;
@@ -11,6 +10,9 @@ passanting = false;
 
 alarm[3] = room_speed * 0.1;
 red = true;
+immune =false
+
+
 
 function p_movement()
 {
@@ -59,11 +61,19 @@ function bounds()
 function damage(dmg)
 {
 	//check immunity
-	if(get_timer() - start_time_dmg > 0.8 * power(10, 6))
+	if(!immune)
 	{
-		start_time_dmg = get_timer();
+		immune=true
+		time_source_start(immune_cooldown)
 		audio_play_sound(sfx_ow, 1, false);
 		hp -= dmg;
 		if(hp <= 0) room_goto(rm_death_screen);
 	}
 }
+
+function set_immune(obj, val)
+{
+	obj.immune=val
+}
+
+immune_cooldown = time_source_create(time_source_game, 0.8, time_source_units_seconds, set_immune, [self, false])
