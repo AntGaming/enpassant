@@ -14,47 +14,11 @@ trollcount = 0;
 can_catch = false;
 can_reset = false;
 
-function spawn(type, num, delay)
-{
-	var spawn_target;
-	switch(type)
-	{
-		case 0:
-			spawn_target = obj_enemy;
-			break;
-		case 1:
-			spawn_target = obj_bishop;
-			break;
-		case 2:
-			spawn_target = obj_rook;
-			break;
-		case 3:
-			spawn_target = obj_knight;
-			break;
-		case 4:
-			spawn_target = obj_king;
-			break;
-	}
-	
-	for(var i = 0; i < num; i++)
-	{
-		with instance_create_layer(1000, 1000, "Instances", spawn_target, {wait: delay * (i+1)})
-		{
-			do
-			{
-				x = irandom(room_width);
-				y = irandom(room_height);
-			}
-			until(distance_to_object(obj_player) >= obj_cam.view_w_half);
-		}
-	}
-}
-
 function pawnstorm(num, delay)
 {	
 	for(var i = 0; i < num; i++)
 	{
-		with instance_create_layer(master.x, master.y, "Instances", obj_enemy, {wait: 0.1})
+		with instance_create_layer(master.x, master.y, "Instances", obj_pawn, {wait: 0.1})
 		{
 			depth = other.master.depth+1;
 			sprite_index = spr_pawn_w;

@@ -1,4 +1,16 @@
 
+event_inherited()
+
+if(global.paused && active) 
+{
+	was_active = true
+	active = false
+}
+else if (was_active && !global.paused)
+{
+	active = was_active
+	was_active = false
+}
 damaged = false
 if(active)
 {
@@ -30,3 +42,4 @@ if(active)
 	if(object_index != obj_king) exclude()
 }
 if(died&&destroy_after_death) instance_destroy()
+

@@ -34,7 +34,10 @@ switch(state)
 	*/
 	case 4:
 		visible = false;
-		if(!obj_king.active) state = 5;
+		if(instance_exists(obj_king))
+		{
+			if(!obj_king.active) state = 5;
+		}
 		break;
 	case 5:
 		visible = true;

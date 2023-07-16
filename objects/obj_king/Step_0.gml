@@ -9,7 +9,7 @@ if(died && active)
 {
 	active = false;
 	anchor_x = x;
-	image_index++;
+	image_index=1;
 }
 
 

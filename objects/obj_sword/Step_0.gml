@@ -1,3 +1,4 @@
+if(global.paused) exit
 switch(state)
 {
 	case 0:

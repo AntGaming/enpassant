@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 if(!instance_exists(master)) instance_destroy();
 else
 {

@@ -1,3 +1,5 @@
+event_inherited()
+if(global.paused) exit
 fly_speed = 20 + (10 * master.rage);
 
 switch(state)
@@ -29,7 +31,7 @@ switch(state)
 		break;
 		
 	case 2:
-		spawn(2, 1 + round((2 * master.rage)), 2 - (1 * master.rage));
+		obj_spawn_manager.spawn(2, 1 + round((2 * master.rage)), 2 - (1 * master.rage));
 		state = 0;
 		break;
 	
