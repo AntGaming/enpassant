@@ -4,7 +4,7 @@ y_lim_height = 128*scale+90
 // closest to the bottom of the scre en used to calculate how much to fade the gui
 dist = min(room_height-obj_player.y, camera_get_view_height(view_camera[0])-obj_pointer.y)
 
-if (dist < y_lim_height)
+if (dist < y_lim_height && !global.paused)
 {
 	y_fade_end = 0.25
 	alpha = y_fade_end + (1-y_fade_end)*((dist)/y_lim_height)

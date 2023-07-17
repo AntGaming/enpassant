@@ -1,3 +1,6 @@
+if (global.paused) exit
+
+
 if (instance_exists(follow)) //&& !(!obj_player.can_passant && global.level == 5))
 {
 	xTo = lerp(follow.x, mouse_x, 0.2);;
