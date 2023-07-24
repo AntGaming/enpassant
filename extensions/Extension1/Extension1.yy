@@ -21,11 +21,11 @@
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"ConfineCursor.dll","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"confine_cursor","argCount":0,"args":[
             1,
-          ],"documentation":"","externalName":"ConfineCursor","help":"","hidden":false,"kind":1,"returnType":2,},
+          ],"documentation":"","externalName":"ConfineCursor","help":"confine_cursor(string window_handle) - if the function succeeds returns nonzero, if it fails the return value is zero","hidden":false,"kind":1,"returnType":2,},
       ],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
-  "hasConvertedCodeInjection": false,
+  "hasConvertedCodeInjection": true,
   "helpfile": "",
   "HTML5CodeInjection": "",
   "html5Props": false,
